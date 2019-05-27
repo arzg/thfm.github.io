@@ -55,6 +55,13 @@ html {
     font-size: calc(16px + 0.55vmin);
 }
 
+:root {
+    --fg-color: rgb(35, 35, 35);
+    --bg-color: rgb(253, 253, 254);
+    --grey:     rgb(155, 155, 165);
+    --blue:     rgb(95, 200, 255);
+}
+
 body {
     font-family: 'neue-haas-unica';
     font-size: 1rem;
@@ -68,8 +75,8 @@ body {
     margin: 0 auto;
     padding: 1rem;
 
-    color: rgb(35, 35, 35);
-    background-color: rgb(253, 253, 254);
+    color: var(--fg-color);
+    background-color: var(--bgcolor);
 }
 
 ::selection {
@@ -93,11 +100,11 @@ a {
 }
 
 a:hover, .a:focus {
-    color: rgb(155, 155, 165);
+    color: var(--grey);
 }
 
 article a {
-    background-image: linear-gradient(black, black);
+    background-image: linear-gradient(var(--fg-color), var(--fg-color);
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: 0 88%;
@@ -125,7 +132,7 @@ nav li + li {
 }
 
 .selected_page {
-    color: rgb(155, 155, 165);
+    color: var(--grey);
     pointer-events: none;
     cursor: default;
 }
