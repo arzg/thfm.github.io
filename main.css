@@ -52,7 +52,7 @@ html {
 }
 
 html {
-    font-size: calc(11px + 1vmin);
+    font-size: calc(12px + 0.9vmin);
 }
 
 body {
@@ -68,7 +68,7 @@ body {
     margin: 0 auto;
     padding: 1rem;
 
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 35);
     background-color: rgb(253, 253, 254);
 }
 
