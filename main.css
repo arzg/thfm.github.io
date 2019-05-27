@@ -93,12 +93,7 @@ a {
 }
 
 a:hover, .a:focus {
-    color: rgb(65, 135, 175);
-}
-
-a:active {
     color: rgb(155, 155, 165);
-    transition: none;
 }
 
 article a {
