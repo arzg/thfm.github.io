@@ -89,14 +89,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    transition: color 100ms ease-out;
-}
-
-article a {
-    background-image: linear-gradient(black, black);
-    background-size: 100% 1px;
-    background-repeat: no-repeat;
-    background-position: 0 88%;
+    transition: color 150ms ease-out;
 }
 
 a:hover, .a:focus {
@@ -106,6 +99,13 @@ a:hover, .a:focus {
 a:active {
     color: rgb(155, 155, 165);
     transition: none;
+}
+
+article a {
+    background-image: linear-gradient(black, black);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 88%;
 }
 
 header {
