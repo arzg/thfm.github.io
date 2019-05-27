@@ -100,7 +100,8 @@ article a {
     background-image: linear-gradient(black, black);
     background-size: 100% 1px;
     background-repeat: no-repeat;
-    background-position: 0 88%;
+    background-position: 0 84%;
+    text-shadow: -0.05em -0.05em 0 white, 0.05em -0.05em 0 white, -0.05em 0.05em 0 white, 0.05em 0.05em 0 white, -0.1em 0 0 white, 0.1em 0 0 white, -0.1em 0 0 white, 0.1em 0 0 white;
 }
 
 header {
